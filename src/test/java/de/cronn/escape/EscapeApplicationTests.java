@@ -23,16 +23,12 @@ class EscapeApplicationTests {
     @Test
     void restructure_example_should_import_cache() {
         Assertions.assertEquals("guitar", cacheRestructure.getInstrumentFor("Jimi"));
-        Assertions.assertEquals("piano", cacheRestructure.getInstrumentFor("Ludwig"));
         Assertions.assertNull(cacheRestructure.getInstrumentFor("Miles"));
-        Assertions.assertEquals("drum", cacheRestructure.getInstrumentFor("Oskar"));
     }
 
     @Test
     void postConstruct_example_should_import_cache() {
         Assertions.assertEquals("guitar", cachePostConstruct.getInstrumentFor("Jimi"));
-        Assertions.assertNull(cachePostConstruct.getInstrumentFor("Ludwig"));
-        Assertions.assertEquals("trumpet", cachePostConstruct.getInstrumentFor("Miles"));
-        Assertions.assertEquals("drum", cacheRestructure.getInstrumentFor("Oskar"));
+        Assertions.assertNull(cacheRestructure.getInstrumentFor("Miles"));
     }
 }

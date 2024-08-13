@@ -1,6 +1,6 @@
 # Example Code for the Blog Post About Java’s `this-escape` Linter Warning
 
-The project combines the listings used in this [blog post](https://blog.cronn.de/en/java/2024/07/11/this-escape.html)
+The project combines the listings used in this [blog post](https://blog.cronn.de/en/java/2024/08/13/this-escape.html)
 into one project. The code is not suitable for production and are used for illustrative purposes only.
 
 The related code for the individual chapters can be found in the following packages:
